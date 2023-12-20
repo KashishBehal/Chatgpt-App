@@ -14,7 +14,7 @@ import bot from "./assets/bot.png"
 
 //  ]
 
-function App(){
+const App=()=>{
 
   const [input, setInput] = useState("");
   const[posts , setPosts]=useState([]);

@@ -14,7 +14,108 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.container {
+  color:#999;
+  text-transform: uppercase;
+  font-size:50px;
+  font-weight:bold;
+  padding-top:70px;  
+  
+  width:100%;
+  bottom:45%;
+  display:block;
+  padding-left: 500px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
 
+.flip {
+  height:50px;
+  overflow:hidden;
+}
+
+.flip > div > div {
+  color:#fff;
+  padding:9px 15px;
+  height:50px;
+  font-size: 25px;
+  margin-bottom:45px;
+  display:inline-block;
+}
+
+.flip div:first-child {
+  animation: show 5s linear infinite;
+}
+.side{
+  display: flex;
+  flex-direction: row;
+  
+  
+  
+}
+
+.flip div div {
+  background:rgb(47, 24, 105);
+}
+.flip div:first-child div {
+  background:rgb(47, 24, 105);
+}
+.flip div:last-child div {
+  background:rgb(47, 24, 105);
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
+
+p {
+  position:fixed;
+  width:100%;
+  bottom:30px;
+  font-size:12px;
+  color:#999;
+  margin-top:200px;
+}
+.h{
+  font-size: 80px;
+  color: rgb(50, 26, 122);
+ padding-left: 100px;
+ padding-top: 80px;
+ padding-bottom: 60px;
+ 
+}
+.s{
+  height: 600px;
+  padding-left: 0px;
+  width: 1400px;
+  
+}
+.b{
+  font-size: 30px;
+  padding: 0px;
+  height: 60px;
+  margin-left: 500px;
+  margin-top: 150px;
+  width: 300px;
+  color: rgb(213, 212, 221);
+  background-color: rgb(47, 24, 105);
+  border-radius: 50px;
+  
+}
+.i{
+  font-size: 50px;
+  
+  padding-left: 100px;
+}
 * {
   margin: 0;
   padding: 0;
