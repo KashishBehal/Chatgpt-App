@@ -24,7 +24,7 @@ const App=()=>{
   }  , [posts])
   
  const fetchBotResponse = async ()=>{
-const {data}=await axios.post("https://chatgpt-app-zf5d.onrender.com" ,{input} , {
+const {data}=await axios.post("https://chatgpt-appp.onrender.com" ,{input} , {
   headers:{
     "Content-Type":"application/json"
   } , 
